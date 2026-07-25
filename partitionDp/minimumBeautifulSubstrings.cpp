@@ -63,4 +63,18 @@ public:
 
 // followup question
 
+// Understanding :-> Given an array of Size “N”; divide it into some parts; such that each part is of size>=K and the max - min of that part should be <=M 
+
+
+// --->n
  
+// --->b[n+1] 
+ 
+// --->dp[n+1] = {LARGE VALUE} 
+ 
+// --->dp[0] = 0 
+ 
+// ---> i = 1 
+ 
+
+// https://ideone.com/wAIped  link
