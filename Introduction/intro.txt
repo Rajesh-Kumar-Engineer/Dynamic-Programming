@@ -1,0 +1,9 @@
+--> Break the problem into small parts
+--> find the answer of the smaller Part
+--> combine all small solution --> to get original solution
+
+
+1.  declare empty dp
+2.  dp[i] = best answer if the size of the question is "i"
+3.  calculate dp[1], dp[2] , dp[3] ... by yourself 
+4.  formulate dp[i]
