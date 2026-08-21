@@ -3,8 +3,8 @@ using namespace std;
 
 int countPalindromicSubSequence(string s){
     int n = s.size();
-    vector<vector<int>>dpCount(n , vector<int>(n,0)); // dpCount[i][j] = no of SubSequence which are palindrome [i....j]
-    vector<vector<int>>dp(n, vector<int>(n, 0));
+    vector<vector<int> >dpCount(n , vector<int>(n,0)); // dpCount[i][j] = no of SubSequence which are palindrome [i....j]
+    vector<vector<int> >dp(n, vector<int>(n, 0));
 
     for(int i = 0 ; i <n ; i++){
         dp[i][i] = true;
